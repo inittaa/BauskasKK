@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+}
+body{
+
+        background: linear-gradient(to bottom right, white 35%, #FF9900 55%);
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: whitesmoke;
+        font-weight: 500;
+        height: 100%;
+        
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+nav {
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul a {
+    color: #980000 ;
+    display: block;
+    line-height: 2em;
+    padding: 1em 1em;
+    text-decoration: none;
+    text-align: center;
+}
+.login
+{
+    float: right;
+    margin-right: 10px;
+}
+
+ul a:hover {
+    background-color: #FFCC66;
+}
+
+footer {
+	font-size: 0.8em;
+        text-align: center;
+        padding-top: 50px;
+       }
+
+.container {
+  color: #e6b800;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  height: 400px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 40px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-put;
+          transition-timing-function: ease-in-put;
+  font-weight: 200;
+}
+form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+  
+}
+form input {
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 300px;
+  border-radius: 500px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: whitesmoke;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+form input:focus {
+  background-color: #332900;
+  width: 400px;
+  color: #e6b800;
+}
+.register {
+  outline: 0;
+  background-color: #332900;
+  border: 0;
+  padding: 10px 15px;
+  text-align: center;
+  color: #e6b800;
+  border-radius: 500px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+form button:hover {
+  background-color: #332900;
+}
+
+ @media print {
+    footer, .bilde_ats, p.atsauce{
+        display:none;        
+    }}
