@@ -14,9 +14,9 @@
 		<div class="col-md-12 ">
 			<table class="table">
 				<thead>
-					<th>Title</th>
-					<th>Body</th>
-					<th>Created At</th>
+					<th>Nosaukums</th>
+					<th>Teksts</th>
+					<th>Izveidots</th>
 					<th></th>
 				</thead>
 
